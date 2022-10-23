@@ -13,6 +13,7 @@ axios({
     for(let driver of xmlDoc.getElementsByTagName('Driver')) {
         drivers.push(driver)
     }   
+    console.log(drivers)
 })
 .then(()=> {
     let tableBody = document.querySelector("#tableBody")

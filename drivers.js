@@ -24,6 +24,7 @@ axios({
         drivers.push(driver)
     }   
     console.log(drivers[0])
+    console.log(drivers[0])
 })
 .then(()=> {
     let tableBody = document.querySelector("#tableBody")
