@@ -1,0 +1,96 @@
+.video {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 915px;
+    height: 500px;
+}
+
+body {
+    background-color: #111111;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: monospace;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .header {
+    margin-top: 150px;
+}
+
+.content .header h3 {
+    color: #e7e7e7;
+}
+
+.table {
+    max-width: 1000px;
+    background-color: #E9ECEF;
+    margin-top: 50px;
+}
+
+.table tr {
+    color: #272727;
+}
+
+.table thead tr {
+    background-color: #ffffff;
+    height: 75px;
+}
+
+.table thead tr th{
+    background-color: #ffffff;
+    height: 80px;
+    vertical-align:middle;
+}
+
+nav {
+    height: 100px ;
+    background-color: #E9ECEF !important;
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+#drivers {
+    margin: 0 50px;
+}
+
+.nav-item a {
+    color: #353535 !important;
+    font-weight: 600;
+}
+
+.nav-item a:hover {
+    color: #ff0000 !important;
+}
+
+.nav-item.active a{
+    color: #ff0000 !important;
+}
+
+#tableBody td a {
+    color: #ff0000;
+}
+
+
+
+
