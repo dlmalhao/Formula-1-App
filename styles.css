@@ -91,6 +91,15 @@ nav {
     color: #ff0000;
 }
 
+.author {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.author p {
+    color: #6e6e6e;
+}
 
 
 
